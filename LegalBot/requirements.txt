@@ -1,0 +1,11 @@
+agno
+openai
+exa_py
+duckduckgo_search
+python-dotenv
+google-genai
+docx
+streamlit
+google-generativeai
+streamlit
+
