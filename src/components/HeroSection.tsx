@@ -1,8 +1,8 @@
 import React from "react";
 
 const HeroSection = () => (
-  <section id="hero" className="relative flex justify-center px-3 overflow-hidden py-20 md:py-32 bg-gradient-to-b from-white to-blue-50">
-    <div className="container relative z-10">
+  <section id="hero" className="relative z-0 flex justify-center px-3 overflow-hidden py-20 md:py-32 bg-gradient-to-b from-white to-blue-50">
+    <div className="container relative">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="flex flex-col gap-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-blue-700">
