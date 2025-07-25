@@ -11,14 +11,16 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HeroSection />} />
-        <Route path="/login/user" element={<LoginUser />} />
-        <Route path="/login/lawyer" element={<LoginLawyer />} />
-        <Route path="/signup/user" element={<SignupUser />} />
-        <Route path="/signup/lawyer" element={<SignupLawyer />} />
-      </Routes>
-      <Footer />
+      <div className="app-flex">
+        <Routes>
+          <Route path="/" element={<HeroSection />} />
+          <Route path="/login/user" element={<LoginUser />} />
+          <Route path="/login/lawyer" element={<LoginLawyer />} />
+          <Route path="/signup/user" element={<SignupUser />} />
+          <Route path="/signup/lawyer" element={<SignupLawyer />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
